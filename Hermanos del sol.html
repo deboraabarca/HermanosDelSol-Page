@@ -9,8 +9,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,500&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/Global.css">
-  <title>Hermanos Del Sol-Empresa de transporte</title>
+  <title>Hermanos Del Sol</title>
 </head>
 
 <body>
@@ -23,10 +24,11 @@
       <li><a href="#nosotros">Nosotros</a></li>
       <li><a href="#servicios">Servicios</a></li>
       <li><a href="#horario">Horario</a></li>
+      <li><a href="#rutas">Rutas</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </header>
-  <!-- seccion de inicio con un banner -->
+  <!-- seccion de inicio banner-->
   <div class="content-banner">
     <div class="banner">
       <img src="./assets/Banner/banner.jpg" alt="Banner">
@@ -37,41 +39,44 @@
     </div>
   </div>
   <!-- seccion de nosotros -->
-  <section class="nosotros">
+  <section id="nosotros" class="nosotros">
     <div class="we">
       <h2>Sobre nosotros</h2>
-      <p>Hermanos del sol es una empresa dedicada al transporte con una experiencia de mas de 30 años en el rubro
-        mejorando cada día para brindar una experiencia satisfactoria a nuestros usuarios.
+      <p>Somos una empresa con más de 30 años de experiencia
+        en transporte. Nos destacamos por ofrecer soluciones seguras y
+        eficientes, con un equipo profesional y una flota moderna. Nuestro
+        compromiso es brindar un servicio excepcional y adaptarnos a tus
+        necesidades. En Hermanos Del Sol, tu confianza es nuestra prioridad.
       </p>
     </div>
   </section>
   <!-- seccion de servicio -->
-  <section class="servicios">
+  <section id="servicios" class="servicios">
     <div class="services">
       <h2>Servicios</h2>
       <div class="services-grid">
         <div class="services-item">
-          <h3>Transporte urbano</h3>
-          <img src="./assets/services/urbano.jfif" alt="servicio-urbano">
-          <p>Ofrecemos transporte de carga a nivel nacional con la
-            máxima seguridad y eficiencia.</p>
+          <h3>Servicio de mudanza</h3>
+          <img src="./assets/services/mudanza.jpg" alt="servicio-mudanza">
+          <p> Ofrecemos transporte seguro y eficiente para tus mudanzas nacionales,
+            asegurando que tus pertenencias lleguen a su destino sin inconvenientes.</p>
         </div>
         <div class="services-item">
           <h3>Envio de encomiendas </h3>
           <img src="./assets/services/encomiendas.png " alt="servicio-encomiendas">
-          <p>Ofrecemos transporte de encomiendas a nivel nacional con la
-            máxima seguridad y eficiencia.</p>
+          <p> Brindamos un servicio de envío de encomiendas a nivel nacional,
+            garantizando rapidez y protección para tus paquetes.</p>
         </div>
         <div class="services-item">
-          <h3>Servicio inter provincial</h3>
+          <h3>Servicio interprovincial</h3>
           <img src="./assets/services/interprovincial.jpg" alt="servicio-interprovincial">
-          <p>Ofrecemos transporte de encomiendas a nivel nacional con la
-            máxima seguridad y eficiencia.</p>
+          <p>Proporcionamos transporte interprovincial con máxima seguridad y confort,
+            ideal para tus viajes entre ciudades.</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="Horario">
+  <section id="horario" class="Horario">
     <div class="schedule">
       <h2>Horarios de atención</h2>
       <ul>
@@ -81,7 +86,8 @@
       </ul>
     </div>
   </section>
-  <section class="rutas">
+  <!-- seccion de rutas -->
+  <section id="rutas" class="rutas">
     <div class="rutes-map">
       <img src="./assets/Routes/map.png" alt="Mapa de rutas">
     </div>
@@ -103,13 +109,24 @@
       </div>
     </div>
   </section>
-  
-  <footer class="contacto">
+  <!-- seccion de contacto-->
+  <footer id="contacto" class="contacto">
     <div class="contact">
       <h2>Contáctanos</h2>
-      <p>Email: contacto@elrapido.com</p>
-      <p>Teléfono: +123 456 789</p>
-      <p class="copyright">&copy; 2024 El Rápido. Todos los derechos reservados.</p>
+      <p>Email: Hermanosdelsol@gmail.com</p>
+      <p>Teléfono: 923 456 789</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <p class="copyright">&copy; 2024 Hermanosdelsol. Todos los derechos reservados.</p>
     </div>
   </footer>
 </body>
