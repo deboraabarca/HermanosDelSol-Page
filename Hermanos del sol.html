@@ -9,8 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,500&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/HermanosDelSol.css">
-  <link rel="stylesheet" href="./css/Animations.css">
+  <link rel="stylesheet" href="./css/Global.css">
   <title>Hermanos Del Sol-Empresa de transporte</title>
 </head>
 
@@ -18,19 +17,19 @@
   <script src="./js/animation.js"></script>
   <header>
     <div class="logo">
-      <img src="logo.png" alt="Hermanos Del Sol">
+      <img src="./assets/Header/logo.png" alt="Hermanos Del Sol">
     </div>
     <ul>
-      <li><a href="Inicio">Inicio</a></li>
       <li><a href="#nosotros">Nosotros</a></li>
-      <li><a href="#contacto">Contacto</a></li>
       <li><a href="#servicios">Servicios</a></li>
-    </ul> 
+      <li><a href="#horario">Horario</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
   </header>
   <!-- seccion de inicio con un banner -->
   <div class="content-banner">
     <div class="banner">
-      <img src="./assets/banner.jpg" alt="Banner">
+      <img src="./assets/Banner/banner.jpg" alt="Banner">
       <div class="banner-text">
         <h1>Bienvenido a empresa "Hermanos Del Sol"</h1>
         <p>transporte rápido y seguro</p>
@@ -41,7 +40,7 @@
   <section class="nosotros">
     <div class="we">
       <h2>Sobre nosotros</h2>
-      <p>Hermannos del sol es una empresa dedicada al transporte con una experiencia de mas de 30 años en el rubro
+      <p>Hermanos del sol es una empresa dedicada al transporte con una experiencia de mas de 30 años en el rubro
         mejorando cada día para brindar una experiencia satisfactoria a nuestros usuarios.
       </p>
     </div>
@@ -53,28 +52,61 @@
       <div class="services-grid">
         <div class="services-item">
           <h3>Transporte urbano</h3>
-          <img src="./assets/urbano.jfif" alt="servicio-urbano">
+          <img src="./assets/services/urbano.jfif" alt="servicio-urbano">
           <p>Ofrecemos transporte de carga a nivel nacional con la
             máxima seguridad y eficiencia.</p>
         </div>
         <div class="services-item">
           <h3>Envio de encomiendas </h3>
-          <img src="./assets/encomiendas.png" alt="servicio-encomiendas">
+          <img src="./assets/services/encomiendas.png " alt="servicio-encomiendas">
           <p>Ofrecemos transporte de encomiendas a nivel nacional con la
             máxima seguridad y eficiencia.</p>
         </div>
         <div class="services-item">
           <h3>Servicio inter provincial</h3>
-          <img src="./assets/interprovincial.jpg" alt="servicio-interprovincial">
+          <img src="./assets/services/interprovincial.jpg" alt="servicio-interprovincial">
           <p>Ofrecemos transporte de encomiendas a nivel nacional con la
             máxima seguridad y eficiencia.</p>
         </div>
       </div>
     </div>
   </section>
+  <section class="Horario">
+    <div class="schedule">
+      <h2>Horarios de atención</h2>
+      <ul>
+        <li>Lunes a Viernes: 9:00 am - 9:00 pm</li>
+        <li>Sábados: 9:00 am - 6:00 pm</li>
+        <li>Domingos y Feriados: 10:00 am - 4:00 pm</li>
+      </ul>
+    </div>
+  </section>
+  <section class="rutas">
+    <div class="rutes-map">
+      <img src="./assets/Routes/map.png" alt="Mapa de rutas">
+    </div>
+    <div class="routes-info">
+      <h2>Nuestras Rutas</h2>
+      <div class="routes-grid">
+        <div class="routes-item">Lima</div>
+        <div class="routes-item">Jaén</div>
+        <div class="routes-item">Trujillo</div>
+        <div class="routes-item">Arequipa</div>
+        <div class="routes-item">Cusco</div>
+        <div class="routes-item">Piura</div>
+        <div class="routes-item">Chiclayo</div>
+        <div class="routes-item">Tacna</div>
+        <div class="routes-item">Puno</div>
+        <div class="routes-item">Iquitos</div>
+        <div class="routes-item">Ayacucho</div>
+        <div class="routes-item">Huancayo</div>
+      </div>
+    </div>
+  </section>
+  
   <footer class="contacto">
     <div class="contact">
-      <h2>Contactanos</h2>
+      <h2>Contáctanos</h2>
       <p>Email: contacto@elrapido.com</p>
       <p>Teléfono: +123 456 789</p>
       <p class="copyright">&copy; 2024 El Rápido. Todos los derechos reservados.</p>

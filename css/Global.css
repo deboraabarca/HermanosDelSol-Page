@@ -1,0 +1,43 @@
+@import url('Header.css');
+@import url('Banner.css');
+@import url('We.css');
+@import url('Services.css');
+@import url('Schedule.css');
+@import url('Contac.css');
+@import url('Routes.css');
+@import url('Animations.css');
+
+:root {
+  /*primary colors*/
+  --color-azul: #007bff;
+  --color-verde: #28a745;
+  --color-amarillo: #ffc107;
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
+  /*font-family*/
+  --font-family: 'Poppins', sans-serif;
+  /*font-weights*/
+  --font-light: 100;
+  --font-regular: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+}
+
+section {
+  padding: 50px;
+}

@@ -1,0 +1,31 @@
+header {
+  background-color: var(--color-azul);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+header .logo img {
+  max-width: 150px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: var(--color-blanco);
+  text-decoration: none;
+  font-weight: var(--font-semibold);
+}
+
+header ul li a:hover {
+  color: var(--color-amarillo);
+}
