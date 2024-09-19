@@ -1,6 +1,6 @@
 header {
   background-color: var(--color-azul);
-  height:100px
+  height:100px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
