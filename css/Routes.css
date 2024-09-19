@@ -35,6 +35,7 @@
   border-radius: 8px;
   text-align: center;
   transition: transform 0.3s ease;
+  cursor: pointer
 }
 
 .routes-item:hover {

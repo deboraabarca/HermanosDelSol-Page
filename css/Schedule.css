@@ -1,14 +1,18 @@
 .schedule {
   text-align: center;
 }
+
 .schedule h2 {
   color: var(--color-azul);
   font-weight: var(--font-bold);
   font-size: 2rem;
 }
+
 .schedule ul {
   font-size: 1.1rem;
   max-width: 800px;
   margin: 0 auto;
   color: var(--color-negro);
+  list-style: none;
+  padding: 0;
 }
