@@ -1,9 +1,14 @@
 header {
   background-color: var(--color-azul);
+  height:100px
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  position: fixed;
+  top:0;
+  width:1000px;
+  z-index:1000;
 }
 
 header .logo img {
